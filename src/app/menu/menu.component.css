@@ -1,0 +1,26 @@
+ul{
+    list-style: none;
+}
+.lista-menu li{
+    padding: 10px;
+    font-size: 24px;
+}
+.lista-menu li a{
+    color: #8C3D30;
+}
+.lista-menu{
+    padding: 0px;
+}
+
+.titulo-1{
+    letter-spacing: 8px;
+    font-size: 56px;
+}
+.titulo-2{
+    font-size: 35px;
+}
+.active-link {
+    text-decoration:  underline; /* Elimina la decoración de subrayado predeterminada del enlace */
+    
+  }
+  

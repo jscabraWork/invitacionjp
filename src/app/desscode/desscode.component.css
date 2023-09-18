@@ -1,0 +1,45 @@
+.contenedor-img{
+    width: 303px;
+    height: 601px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente la imagen */
+    align-items: center; /* Centra verticalmente la imagen */
+}
+.contenedor-img img{
+    height: 100%;
+    text-align: center;
+    width: 303px;
+}
+
+.col-6 {
+    /* Estilo para el contenedor de columna (ajústalo según tus necesidades) */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente los elementos */
+    text-align: center; /* Centra el contenido del contenedor */
+}
+.ejemplo{
+
+    font-size: 15px;
+    
+    color: white;
+    background-color: #8C3D30;
+    border: 1px solid #8C3D30;
+    transition: all 500ms;
+    padding: 2px 12px 2px 12px;
+    border-radius: 5px;
+    position: absolute;
+    top: 82%;
+}
+
+.ejemplo:hover{
+
+    color: #8C3D30;
+    background-color: transparent;
+
+}
+.f-32{
+    font-size: 32px;
+}

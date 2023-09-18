@@ -1,1 +1,53 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+@font-face {
+    font-family: grotesk;
+    src: url('./assets/tipografia/groteskregular.ttf');
+
+}
+@font-face {
+    font-family: bludhaven;
+    src: url('./assets/tipografia/BLUDHAVEN.ttf');
+
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+.grotesk{
+    font-family: grotesk;
+}
+.bludhaven{
+    font-family: bludhaven;
+}
+
+.centrar{
+    text-align: center;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.flex-full{
+    text-align: center;
+    flex: 1 100%;
+    
+    
+}
+.centrar-f{
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    
+}
+.cafe{
+    color: #8C3D30;
+}
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }

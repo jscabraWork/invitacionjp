@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { MatDialog } from '@angular/material';
 @Component({
   selector: 'app-desscode',
   templateUrl: './desscode.component.html',
@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DesscodeComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dialog:MatDialog) { }
 
   ngOnInit(): void {
   }
